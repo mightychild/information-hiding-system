@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=EIICS
+Comment=Encryption Image Information Concealing System
+Exec=eiics
+Icon=/usr/share/icons/eiics/icon.png
+Terminal=false
+Type=Application
+Categories=Utility;Security;
+Keywords=steganography;encryption;security;
