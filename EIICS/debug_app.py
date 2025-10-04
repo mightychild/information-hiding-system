@@ -40,10 +40,10 @@ def test_crypto():
         # Test simple crypto operation
         key = get_random_bytes(16)
         cipher = AES.new(key, AES.MODE_ECB)
-        print("✓ Crypto operations successful")
+        print("Crypto operations successful")
         return True
     except Exception as e:
-        print(f"✗ Crypto test failed: {e}")
+        print(f"Crypto test failed: {e}")
         return False
 
 def test_tkinter():
@@ -89,12 +89,12 @@ def main():
         print("Now testing main application...")
         test_main_app()
     else:
-        print("✗ Some tests failed. The main app will likely fail too.")
+        print("Some tests failed. The main app will likely fail too.")
         input("Press Enter to exit...")
 
 def test_main_app():
     """Test the main application step by step"""
-    print("2. Testing main application step by step...")
+    print("2. Testing main application")
     
     try:
         # Test imports
@@ -113,13 +113,13 @@ def test_main_app():
         # Test welcome screen
         print("Testing welcome screen...")
         app.show_welcome_screen()
-        print("✓ Welcome screen successful")
+        print("Welcome screen successful")
         
         root.destroy()
-        print("✓ All tests completed successfully!")
+        print("All tests completed successfully!")
         
     except Exception as e:
-        print(f"✗ Main app test failed: {e}")
+        print(f"Main app test failed: {e}")
         traceback.print_exc()
     finally:
         input("Press Enter to exit...")
