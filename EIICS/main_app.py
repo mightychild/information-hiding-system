@@ -141,7 +141,7 @@ class EIICSApp:
         self.clear_main_frame()
         self.root.title("EIICS - Embed Text")
         
-        # Create a simple form without complex class inheritance
+        # Create a simple form
         main_frame = tk.Frame(self.main_frame, bg="#132f4c")
         main_frame.pack(fill=tk.BOTH, expand=True, padx=20, pady=20)
 
@@ -593,10 +593,10 @@ class EIICSApp:
             else:
                 # For files, show info and enable save button
                 self.result_text.insert("1.0", 
-                    f"✅ File data extracted successfully!\n\n"
-                    f"📊 File type: Binary data\n"
-                    f"📦 Size: {len(self.extracted_data)} bytes\n\n"
-                    f"💡 Click 'Save Extracted File' button to save the file."
+                    f"File data extracted successfully!\n\n"
+                    f"File type: Binary data\n"
+                    f"Size: {len(self.extracted_data)} bytes\n\n"
+                    f"Click 'Save Extracted File' button to save the file."
                 )
                 messagebox.showinfo("Success", "File data extracted successfully!")
                 
@@ -631,8 +631,8 @@ class EIICSApp:
                 
                 messagebox.showinfo("Success", 
                                   f"File saved successfully!\n\n"
-                                  f"📍 Location: {file_path}\n"
-                                  f"📦 Size: {len(self.extracted_data)} bytes")
+                                  f"Location: {file_path}\n"
+                                  f"Size: {len(self.extracted_data)} bytes")
                 
                 # Disable save button after successful save
                 self.save_button.config(state=tk.DISABLED)
