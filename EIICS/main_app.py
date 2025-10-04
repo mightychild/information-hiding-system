@@ -131,7 +131,7 @@ class EIICSApp:
 
         # Footer
         footer_label = tk.Label(main_frame, 
-                               text="© 2024 EIICS • Secure Data Hiding",
+                               text="© 2025 EIICS • Secure Data Hiding",
                                fg="#b0bec5", bg="#132f4c",
                                font=('Arial', 10))
         footer_label.pack(side=tk.BOTTOM, pady=20)
@@ -229,11 +229,11 @@ class EIICSApp:
         btn_frame = tk.Frame(main_frame, bg="#132f4c")
         btn_frame.pack(pady=20)
 
-        tk.Button(btn_frame, text="🚀 Embed Text", 
+        tk.Button(btn_frame, text="Embed Text", 
                   command=self.embed_text, bg="#00e5ff", fg="#ffffff",
                   font=('Arial', 12, 'bold'), padx=20, pady=10).pack(side=tk.LEFT, padx=10)
 
-        tk.Button(btn_frame, text="❌ Cancel", 
+        tk.Button(btn_frame, text="Cancel", 
                   command=self.show_welcome_screen, 
                   bg="#ff6e40", fg="#ffffff",
                   font=('Arial', 12), padx=20, pady=10).pack(side=tk.LEFT, padx=10)
@@ -404,11 +404,11 @@ class EIICSApp:
         btn_frame = tk.Frame(main_frame, bg="#132f4c")
         btn_frame.pack(pady=20)
 
-        tk.Button(btn_frame, text="🚀 Embed File", 
+        tk.Button(btn_frame, text="Embed File", 
                   command=self.embed_file, bg="#00e5ff", fg="#ffffff",
                   font=('Arial', 12, 'bold'), padx=20, pady=10).pack(side=tk.LEFT, padx=10)
 
-        tk.Button(btn_frame, text="❌ Cancel", 
+        tk.Button(btn_frame, text="Cancel", 
                   command=self.show_welcome_screen, 
                   bg="#ff6e40", fg="#ffffff",
                   font=('Arial', 12), padx=20, pady=10).pack(side=tk.LEFT, padx=10)
