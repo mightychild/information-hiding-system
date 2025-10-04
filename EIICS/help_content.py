@@ -11,7 +11,7 @@ class HelpContent:
     ABOUT_TEXT = """
 Encryption Image Information Concealing System (EIICS)
 Version 1.0
-© 2024 EIICS
+© 2025 EIICS
 
 A secure application for hiding encrypted data within images using the Least Significant Bit (LSB) technique combined with AES-256 encryption.
 
