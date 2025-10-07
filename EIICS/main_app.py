@@ -112,7 +112,7 @@ class EIICSApp:
         self.add_button_hover(text_btn, "#00e5ff", "#00b8d4")
 
         # File embedding button
-        file_btn = tk.Button(btn_frame, text="Embed File", 
+        file_btn = tk.Button(btn_frame, text="📁 Embed File", 
                              command=self.show_file_embed,
                              bg="#ff6e40", fg="#ffffff",
                              font=('Arial', 12, 'bold'),
