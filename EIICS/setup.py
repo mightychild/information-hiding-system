@@ -6,7 +6,7 @@ Setup script for Encryption Image Information Concealing System (EIICS)
 from setuptools import setup, find_packages
 import os
 
-# Read the contents of your 
+# Read the contents of your README file
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 

@@ -96,7 +96,7 @@ class StegoEngine:
                             bits_extracted += 1
 
             if len(length_binary) != 32:
-                raise ValueError("Invalid stego image")
+                raise ValueError("Invalid image")
 
             payload_length = int(length_binary, 2)
             payload_binary = ''
@@ -129,5 +129,5 @@ class StegoEngine:
             raise Exception(f"Extraction failed: {str(e)}")
 
 if __name__ == "__main__":
-    # Test the stego engine
+    # Test the engine
     print("EIICS Stego Engine Test Complete")
