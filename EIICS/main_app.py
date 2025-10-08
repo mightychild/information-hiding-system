@@ -161,7 +161,7 @@ class EIICSApp:
                                font=('Arial', 20, 'bold'))
         title_label.pack(side=tk.LEFT, padx=20)
 
-        # Store variables as instance 
+        # Store variables as instance attributes
         self.current_image_path = None
         self.encryption_key = tk.StringVar()
 

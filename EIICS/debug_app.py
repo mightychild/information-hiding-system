@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 debug_app.py - Debug version to find where the segmentation fault occurs
 """
